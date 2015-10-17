@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Form with focus animation</title>
+    
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+    
+
+    <!-- 
+If you don't want to deal with exact positioning, you can wrap the label and input inside a group; then, position the label inside said group (on top of the input via position: absolute).
+-->
+
+<h2>Contact Me</h2>
+
+<form action="">
+  <input type="text" id="n">
+  <label for="n" class="name"><span class="label-text">Name</span></label>
+
+  <input type="email" id="e"/>
+  <label for="e" class="email"><span class="label-text">Email</span></label>
+
+  <textarea id="m"></textarea>
+  <label for="m" class="message"><span class="label-text">Message</span></label>
+
+  <input type="submit" value="Send message" class="button">
+</form>
+    
+<script src="js/index.js"></script>
+    
+    
+  </body>
+</html>
